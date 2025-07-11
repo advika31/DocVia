@@ -8,7 +8,7 @@ const Pricing = () => {
   return (
     <Card className="border-emerald-900/30 shadow-lg bg-gradient-to-b from-emerald-950/30 to-transparent">
       <CardContent className="p-6 md:p-8">
-        {process.env.ENABLE_BILLING === 'true' && <PricingTable
+        {process.env.NEXT_PUBLIC_ENABLE_BILLING === 'true' && <PricingTable
           checkoutProps={{
             appearance: {
               elements: {
